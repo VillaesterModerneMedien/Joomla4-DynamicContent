@@ -1,0 +1,69 @@
+{
+  "name": "SercosysMia",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nielsnuebel/com_sercosysmia.git"
+  },
+  "author": {
+    "name": "Kicktemp GmbH",
+    "email": "hello@kicktemp.com",
+    "url": "https://kicktemp.com"
+  },
+  "scripts": {
+    "watch": "cross-env NODE_ENV=development gulp watch",
+    "build": "cross-env NODE_ENV=production gulp build",
+    "copy": "cross-env NODE_ENV=production gulp copyFiles",
+    "init": "sh ./scripts/joomla.sh"
+  },
+  "contributors": [
+    {
+      "name": "Niels Nübel",
+      "email": "niels@kicktemp.com"
+    },
+    {
+      "name": "Stefan Wendhausen",
+      "email": "stefan@kicktemp.com"
+    },
+    {
+      "name": "Michael Kühner",
+      "email": "info@sercosys.de"
+    }
+  ],
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/nielsnuebel/com_sercosysmia/issues"
+  },
+  "homepage": "https://github.com/nielsnuebel/com_sercosysmia#readme",
+  "replacejson": {
+    "[UPDATEURL]": "https://kicktemp.shop/download?e=[PACKAGE_NAME]&v=[VERSION]",
+    "[AUTHOR]": "Sercosys",
+    "[AUTHOR_EMAIL]": "hello@kicktemp.com",
+    "[COPYRIGHT]": "Copyright © 2020 SERCOSYS. All rights reserved.",
+    "[AUTHOR_URL]": "https://serosys.de/",
+    "[DATE]": "09.09.2020"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.7.4",
+    "@babel/runtime": "^7.7.7",
+    "browser-sync": "^2.26.7",
+    "cross-env": "^6.0.3",
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.2",
+    "gulp-if": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "node-notifier": "^6.0.0",
+    "through2": "^3.0.1"
+  },
+  "buildconfigs": {
+    "proxy": "http://j4testspace.test"
+  },
+  "dependencies": {
+    "react-validation": "^3.0.7",
+    "uikit": "^3.5.7"
+  }
+}

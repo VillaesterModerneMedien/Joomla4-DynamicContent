@@ -1,0 +1,102 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:600,400,300';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:600';
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono';
+
+//
+// Import components
+//
+
+@import "../../../../assets/uikit/src/less/uikit.less";
+
+//
+// Import theme
+//
+
+@import "../../../theme/assets/less/uikit/_import.less";
+
+//
+// Variables
+//
+
+@breakpoint-xlarge:                             1400px;
+
+@global-z-index:                                600000;
+
+@internal-form-select-image:                    "../../../../../../vendor/yootheme/theme/assets/less/uikit/images/form-select.svg";
+
+//
+// Import website builder
+//
+
+@import "../../../theme/assets/less/admin/_import.less";
+
+/*
+ * Joomla: System Messages
+ */
+
+#system-message-container { display: none; }
+ 
+/*
+ * TinyMCE Skin
+ */
+
+.mce-tinymce {
+    box-sizing: border-box !important;
+    border-color: #e5e5e5 !important;
+}
+
+.mce-panel { background: #fff !important; }
+
+.mce-toolbar-grp {
+    padding: 3px !important;
+    background: #fafafa !important;
+}
+
+.mce-btn-group:not(:first-child) {
+    border-left: none !important;
+    padding-left: 0 !important;
+}
+
+.mce-edit-area { border-color: #e5e5e5 !important; }
+
+.mce-statusbar { border-top: 1px solid #e5e5e5 !important; }
+
+/* Toolbar */
+.mce-toolbar .mce-btn {
+    margin-top: 4px !important;
+    margin-left: 4px !important;
+}
+
+.mce-flow-layout-item > * { white-space: normal !important; }
+
+/* Buttons */
+.mce-toolbar .mce-btn { background: transparent !important; }
+
+.mce-toolbar .mce-btn:hover,
+.mce-toolbar .mce-btn:focus { background-color: #f0f0f0 !important; }
+
+.mce-toolbar .mce-btn-small button { padding: 2px 5px !important; }
+
+.mce-toolbar .mce-btn button {
+    height: 26px !important;
+    padding: 2px 7px !important;
+}
+
+/* Paragraph select box */
+.mce-toolbar .mce-btn-group .mce-btn.mce-listbox {
+    background: #fff !important;
+    border: 1px solid #e5e5e5 !important;
+}
+
+/* Dropdown menu */
+.mce-menu-item:hover .mce-text,
+.mce-menu-item.mce-selected .mce-text,
+.mce-menu-item.mce-active .mce-text,
+.mce-menu-item:focus .mce-text { color: #fff !important; }
+
+//
+// Import codemirror
+//
+
+@import (inline) '../../../../../node_modules/codemirror/lib/codemirror.css';
+@import (inline) '../../../../../node_modules/codemirror/addon/hint/show-hint.css';
