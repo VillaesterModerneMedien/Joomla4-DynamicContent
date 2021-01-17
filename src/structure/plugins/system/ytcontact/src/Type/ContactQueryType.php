@@ -42,7 +42,7 @@ class ContactQueryType
                     'metadata' => [
 
                         'label' => 'Contact',
-                        'group' => 'Studio Gong',
+                        'group' => 'Kontakte',
 
                         'fields' => [
                             'id' => [

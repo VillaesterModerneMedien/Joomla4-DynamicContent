@@ -19,6 +19,154 @@ class ContactType
                         'filters' => ['limit'],
                     ],
                 ],
+                'alies' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Alias',
+                        'filters' => ['limit'],
+                    ],
+                ],
+                'con_position' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Position',
+                        'filters' => ['limit'],
+                    ],
+                ],
+                'address' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Adresse (Strasse)',
+                        'filters' => ['limit'],
+                    ],
+                ],
+                'suburb' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Stadt',
+                        'filters' => ['limit'],
+                    ],
+                ],
+                'state' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Staat',
+                        'filters' => ['limit'],
+                    ],
+                ],
+                'country' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Land',
+                        'filters' => ['limit'],
+                    ],
+                ],
+                'postcode' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Postleitzahl',
+                        'filters' => ['limit'],
+                    ],
+                ],
+                'telephone' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Telefon',
+                        'filters' => ['limit'],
+                    ],
+                ],
+                'fax' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Fax',
+                        'filters' => ['limit'],
+                    ],
+                ],
+                'mobile' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Mobil',
+                        'filters' => ['limit'],
+                    ],
+                ],
+                'webpage' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Webseite',
+                        'filters' => ['limit'],
+                    ],
+                ],
+                'misc' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Misc',
+                        'filters' => ['limit'],
+                    ],
+                ],
+                'image' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Bild',
+                        'filters' => ['limit'],
+                    ],
+                ],
+                'email_to' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Email',
+                        'filters' => ['limit'],
+                    ],
+                ],
+                'default_con' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Default Con (?)',
+                        'filters' => ['limit'],
+                    ],
+                ],
+                'published' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Published',
+                        'filters' => ['limit'],
+                    ],
+                ],
+
+                'sortname1' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Sortierung 1',
+                        'filters' => ['limit'],
+                    ],
+                ],
+                'sortname2' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Sortierung 2',
+                        'filters' => ['limit'],
+                    ],
+                ],
+                'sortname3' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Sortierung 3',
+                        'filters' => ['limit'],
+                    ],
+                ],
+                'created' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Created Date',
+                        'filters' => ['limit'],
+                    ],
+                ],
+                'modified' => [
+                    'type' => 'String',
+                    'metadata' => [
+                        'label' => 'Modified Date',
+                        'filters' => ['limit'],
+                    ],
+                ],
 
             ],
 
